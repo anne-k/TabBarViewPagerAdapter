@@ -2,7 +2,7 @@
 
 Custom ViewPagerAdapter inheriting from MvxCachingFragmentStatePagerAdapter. The sole purpose of this adapter is to save and restore the FragmentsInfo property (Mvx doesn't currently do this).
 
-Two versions, depending on the MvvmCross version it supports:
+Two versions, depending on the MvvmCross version it is compatible with:
 
 - MvvmCross 6.3.1 - may work for older versions, too. Will break with MvvmCross 6.4.0
 - MvvmCross 6.4 - created with 6.4.1, may break with future versions.
